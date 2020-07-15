@@ -1,0 +1,461 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+
+
+.Menu {
+  color: yellow;
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+  font-family: impact;
+}
+
+.ATS {
+  color: #39ff14;
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+  font-family: impact;
+}
+
+.Contact {
+  color: #00FFFF;
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+  font-family: impact;
+
+}
+
+.Awards {
+  color: #ff00ee;
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+  font-family: impact;
+
+}
+
+.Menu:hover {
+  color: #ff3800;
+}
+
+.ATS:hover {
+  color: yellow;
+}
+
+.Contact:hover {
+  color: #39ff14;
+}
+
+.Awards:hover {
+  color:#00FFFF;
+}
+
+body {
+  background-image: url("../images/3 Fish 2.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-color: black;
+  background-size: 100% 100%;
+  position: relative;
+  overflow-y: scroll;
+}
+
+::selection {color: #00ffff;}
+
+
+p {
+  color: #ff00ee;
+  text-shadow: 0px .5px 0px blue;
+  text-align: center;
+  padding: 0px;
+  /* center the element */
+  right: 0;
+  left: 0;
+  margin-right: auto;
+  font-size: 22px;
+  font-style: monospace;
+  font-family: impact;
+  margin-left: auto;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+.ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.ulli {
+  float: left;
+  width: 20%;
+  height: 28px;
+  background-color: #ff00ee25;
+  line-height: 28px;
+  text-align: center;
+  font-size: 20px;
+  font-family: impact;
+}
+
+.ullihead {
+  float: left;
+  width: 20%;
+  height: 28px;
+  background-color: #ff00ee25;
+  text-align: center;
+  font-family: impact;
+  font-size: 26px;
+  line-height: 28px;
+}
+
+
+
+
+
+
+
+
+.Three {
+  color: #0d5eaf;
+}
+
+.Star {
+  color: white;
+}
+
+.Restaurant {
+  color: #0d5eaf;
+}
+
+
+
+
+
+
+
+@media (max-width: 1200px) {
+  .ullia, .ulli, .Menu, .ATS, .Contact, .Awards {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 800px) {
+  .ullia, .ulli, .Menu, .ATS, .Contact, .Awards {
+    font-size: 12.5px;
+  }
+}
+
+@media (max-width: 650px) {
+  .ullia, .ulli, .Menu, .ATS, .Contact, .Awards {
+    font-size: 11.5px;
+  }
+}
+
+@media (max-width: 600px) {
+  .ullia, .ulli, .Menu, .ATS, .Contact, .Awards {
+    font-size: 9.5px;
+  }
+}
+
+@media (max-width: 500px) {
+  .ullia, .ulli, .Menu, .ATS, .Contact, .Awards {
+    font-size: 7.5px;
+  }
+}
+
+@media (max-width: 400px) {
+  .ullia, .ulli, .Menu, .ATS, .Contact, .Awards {
+    font-size: 6px;
+  }
+}
+
+@media (max-width: 300px) {
+  .ullia, .ulli, .Menu, .ATS, .Contact, .Awards {
+    font-size: 4.75px;
+  }
+}
+
+@media (max-width: 250px) {
+  .ullia, .ulli, .Menu, .ATS, .Contact, .Awards {
+    font-size: 4.25px;
+  }
+}
+
+@media (max-width: 225px) {
+  .ullia, .ulli, .Menu, .ATS, .Contact, .Awards {
+    font-size: 3.25px;
+  }
+}
+
+@media (max-width: 175px) {
+  .ullia, .ulli, .Menu, .ATS, .Contact, .Awards {
+    font-size: 3px;
+  }
+}
+
+@media (max-width: 155px) {
+  .ullia, .ulli, .Menu, .ATS, .Contact, .Awards {
+    font-size: 2.25px;
+  }
+}
+
+@media (max-width: 130px) {
+  .ullia, .ulli, .Menu, .ATS, .Contact, .Awards {
+    font-size: 1.75px;
+  }
+}
+
+@media (max-width: 100px) {
+  .ullia, .ulli, .Menu, .ATS, .Contact, .Awards {
+    font-size: 1.5px;
+  }
+}
+
+@media (max-width: 80px) {
+  .ullia, .ulli, .Menu, .ATS, .Contact, .Awards {
+    font-size: 1px;
+  }
+}
+
+@media (max-width: 55px) {
+  .ullia, .ulli, .Menu, .ATS, .Contact, .Awards {
+    font-size: .75px;
+  }
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 1200px) {
+.ullihead {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 900px) {
+  .ullihead {
+    font-size: 14px;
+  }
+}
+
+
+
+@media (max-width: 800px) {
+  .ullihead {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 650px) {
+  .ullihead {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 600px) {
+  .ullihead {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 500px) {
+  .ullihead {
+    font-size: 8.5px;
+  }
+}
+
+@media (max-width: 400px) {
+  .ullihead {
+    font-size: 6.5px;
+  }
+}
+
+@media (max-width: 300px) {
+.ullihead{
+    font-size: 5.5px;
+  }
+}
+
+@media (max-width: 250px) {
+  .ullihead {
+    font-size: 4.75px;
+  }
+}
+
+@media (max-width: 225px) {
+  .ullihead {
+    font-size: 3.75px;
+  }
+}
+
+@media (max-width: 175px) {
+.ullihead {
+    font-size: 3.25px;
+  }
+}
+
+@media (max-width: 155px) {
+  .ullihead {
+    font-size: 2.75px;
+  }
+}
+
+@media (max-width: 130px) {
+  .ullihead {
+    font-size: 2.15px;
+  }
+}
+
+@media (max-width: 100px) {
+.ullihead {
+    font-size: 1.75px;
+  }
+}
+
+@media (max-width: 80px) {
+  .ullihead {
+    font-size: 1.5px;
+  }
+}
+
+@media (max-width: 55px) {
+  .ullihead {
+    font-size: 1.25px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1200px) {
+  p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1000px) {
+  p {
+    font-size: 15px;
+  }
+}
+
+
+@media (max-width: 800px) {
+  p {
+    font-size: 13.4px;
+  }
+}
+
+
+@media (max-width: 700px) {
+  p {
+    font-size: 11.5px;
+  }
+}
+
+
+
+@media (max-width: 600px) {
+  p {
+    font-size: 9.7px;
+  }
+}
+
+
+@media (max-width: 500px) {
+  p {
+    font-size: 7.7px;
+  }
+}
+
+
+@media (max-width: 400px) {
+  p {
+    font-size: 6.5px;
+  }
+}
+
+
+@media (max-width: 350px) {
+  p {
+    font-size: 6px;
+  }
+}
+
+
+
+@media (max-width: 300px) {
+  p {
+    font-size: 5px;
+  }
+}
+
+
+@media (max-width: 200px) {
+  p {
+    font-size: 4px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px)
+  {
+body
+{background-size: 100% 100%;
+  background-image: url("../images/3 fish 2.jpg");
+  }
+}

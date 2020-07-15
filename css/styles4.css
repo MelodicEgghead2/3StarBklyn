@@ -1,0 +1,542 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: cursive;
+  overflow-y: hidden;
+  background-color: black;
+}
+
+
+.parallax {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  flex: 1 1 auto;
+}
+
+.pimg1,
+.pimg2,
+.pimg3,
+.pimg4 {
+  position: relative;
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  overflow-y: hidden;
+  /*
+    fixed = parallax
+    scroll = normal
+  */
+  background-attachment: fixed;
+}
+
+.pimg1 {
+  background-image: url("../images/3 Award 4.jpg");
+  background-size: cover;
+  min-height: 600px;
+  background-size: 100% 100%;
+}
+
+.pimg2 {
+  background-image: url("../images/3 Award 5.jpg");
+  background-size: cover;
+  min-height: 600px;
+  background-size: 100% 100%;
+}
+
+.pimg3 {
+  background-image: url("../images/3 Award 2.jpg");
+  background-size: cover;
+  min-height: 600px;
+  background-size: 100% 100%;
+}
+
+.pimg4 {
+  background-image: url("../images/3 Award 3.jpg");
+  background-size: cover;
+  min-height: 600px;
+  background-size: 100% 100%;
+}
+
+.section {
+  text-align: center;
+  padding: 2px 4px;
+  font-size: 16px;
+}
+
+.section-light {
+  background-color: #f4f4f4;
+  color: #666;
+  padding: 2px 4px;
+  font-size: 16px;
+}
+
+.section-dark {
+  background-color: #282e34;
+  color: #ddd;
+}
+
+
+
+
+
+
+.ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.ulli {
+  float: left;
+  width: 20%;
+  height: 28px;
+  background-color: orange;
+  line-height: 28px;
+  text-align: center;
+  font-size: 20px;
+  font-family: impact;
+}
+
+.ullihead {
+  float: left;
+  width: 20%;
+  height: 28px;
+  background-color: black;
+  text-align: center;
+  font-family: impact;
+  font-size: 26px;
+  line-height: 28px;
+}
+
+
+
+ul li a {
+  text-decoration: none;
+  color: brown;
+}
+
+
+ul li a:hover {
+ color: White;
+}
+
+
+
+::selection {color: #ff3800;}
+
+
+
+.Three {
+  color: #0d5eaf;
+}
+
+.Star {
+  color: white;
+}
+
+.Restaurant {
+  color: #0d5eaf;
+}
+
+
+
+
+
+
+
+@media (max-width: 1200px) {
+  .ullia, .ulli, .Menu, .ATS, .Contact, .Awards {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 800px) {
+  .ullia, .ulli, .Menu, .ATS, .Contact, .Awards {
+    font-size: 12.5px;
+  }
+}
+
+@media (max-width: 650px) {
+  .ullia, .ulli, .Menu, .ATS, .Contact, .Awards {
+    font-size: 11.5px;
+  }
+}
+
+@media (max-width: 600px) {
+  .ullia, .ulli, .Menu, .ATS, .Contact, .Awards {
+    font-size: 9.5px;
+  }
+}
+
+@media (max-width: 500px) {
+  .ullia, .ulli, .Menu, .ATS, .Contact, .Awards {
+    font-size: 7.5px;
+  }
+}
+
+@media (max-width: 400px) {
+  .ullia, .ulli, .Menu, .ATS, .Contact, .Awards {
+    font-size: 6px;
+  }
+}
+
+@media (max-width: 300px) {
+  .ullia, .ulli, .Menu, .ATS, .Contact, .Awards {
+    font-size: 4.75px;
+  }
+}
+
+@media (max-width: 250px) {
+  .ullia, .ulli, .Menu, .ATS, .Contact, .Awards {
+    font-size: 4.25px;
+  }
+}
+
+@media (max-width: 225px) {
+  .ullia, .ulli, .Menu, .ATS, .Contact, .Awards {
+    font-size: 3.25px;
+  }
+}
+
+@media (max-width: 175px) {
+  .ullia, .ulli, .Menu, .ATS, .Contact, .Awards {
+    font-size: 3px;
+  }
+}
+
+@media (max-width: 155px) {
+  .ullia, .ulli, .Menu, .ATS, .Contact, .Awards {
+    font-size: 2.25px;
+  }
+}
+
+@media (max-width: 130px) {
+  .ullia, .ulli, .Menu, .ATS, .Contact, .Awards {
+    font-size: 1.75px;
+  }
+}
+
+@media (max-width: 100px) {
+  .ullia, .ulli, .Menu, .ATS, .Contact, .Awards {
+    font-size: 1.5px;
+  }
+}
+
+@media (max-width: 80px) {
+  .ullia, .ulli, .Menu, .ATS, .Contact, .Awards {
+    font-size: 1px;
+  }
+}
+
+@media (max-width: 55px) {
+  .ullia, .ulli, .Menu, .ATS, .Contact, .Awards {
+    font-size: .75px;
+  }
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 1200px) {
+.ullihead {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 900px) {
+  .ullihead {
+    font-size: 14px;
+  }
+}
+
+
+
+@media (max-width: 800px) {
+  .ullihead {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 650px) {
+  .ullihead {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 600px) {
+  .ullihead {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 500px) {
+  .ullihead {
+    font-size: 8.5px;
+  }
+}
+
+@media (max-width: 400px) {
+  .ullihead {
+    font-size: 6.5px;
+  }
+}
+
+@media (max-width: 300px) {
+.ullihead{
+    font-size: 5.5px;
+  }
+}
+
+@media (max-width: 250px) {
+  .ullihead {
+    font-size: 4.75px;
+  }
+}
+
+@media (max-width: 225px) {
+  .ullihead {
+    font-size: 3.75px;
+  }
+}
+
+@media (max-width: 175px) {
+.ullihead {
+    font-size: 3.25px;
+  }
+}
+
+@media (max-width: 155px) {
+  .ullihead {
+    font-size: 2.75px;
+  }
+}
+
+@media (max-width: 130px) {
+  .ullihead {
+    font-size: 2.15px;
+  }
+}
+
+@media (max-width: 100px) {
+.ullihead {
+    font-size: 1.75px;
+  }
+}
+
+@media (max-width: 80px) {
+  .ullihead {
+    font-size: 1.5px;
+  }
+}
+
+@media (max-width: 55px) {
+  .ullihead {
+    font-size: 1.25px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1200px) {
+  p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1000px) {
+  p {
+    font-size: 14px;
+  }
+}
+
+
+@media (max-width: 800px) {
+  p {
+    font-size: 12px;
+  }
+}
+
+
+@media (max-width: 700px) {
+  p {
+    font-size: 10.5px;
+  }
+}
+
+
+
+@media (max-width: 600px) {
+  p {
+    font-size: 8.5px;
+  }
+}
+
+
+@media (max-width: 500px) {
+  p {
+    font-size: 7px;
+  }
+}
+
+
+@media (max-width: 400px) {
+  p {
+    font-size: 6px;
+  }
+}
+
+
+@media (max-width: 350px) {
+  p {
+    font-size: 5px;
+  }
+}
+
+
+
+@media (max-width: 300px) {
+  p {
+    font-size: 4px;
+  }
+}
+
+
+@media (max-width: 250px) {
+  p {
+    font-size: 3px;
+  }
+}
+
+
+
+
+@media (max-width: 1200px) {
+  h2 {
+    font-size: 20px;
+  }
+}
+
+
+@media (max-width: 600px) {
+  h2 {
+    font-size: 18px;
+  }
+}
+
+
+@media (max-width: 500px) {
+  h2 {
+    font-size: 13px;
+  }
+}
+
+
+@media (max-width: 400px) {
+  h2 {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 300px) {
+  h2 {
+    font-size: 8px;
+  }
+}
+
+
+@media (max-width: 200px) {
+  h2 {
+    font-size: 6px;
+  }
+}
+
+
+@media (max-width: 1200px) {
+  h3 {
+    font-size: 18px;
+  }
+}
+
+
+@media (max-width: 600px) {
+  h3 {
+    font-size: 16px;
+  }
+}
+
+
+@media (max-width: 500px) {
+  h3 {
+    font-size: 12px;
+  }
+}
+
+
+@media (max-width: 400px) {
+  h3 {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 300px) {
+  h3 {
+    font-size: 7px;
+  }
+}
+
+
+@media (max-width: 200px) {
+  h3 {
+    font-size: 5px;
+  }
+}
+
+
+
+
+@media (max-width: 600px) {
+ section  {height: 75px;
+  }
+}
